@@ -1,17 +1,18 @@
 {
   "root": true,
   "project": {
-    "name": "ecommerce"
+    "name": "sanity ecommerce"
   },
   "api": {
-    "projectId": "ug1k0fxk",
+    "projectId": "6vlh7myl",
     "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool"
+    "@sanity/desk-tool",
+    "barcode-input"
   ],
   "env": {
     "development": {
